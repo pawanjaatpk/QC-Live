@@ -72,26 +72,26 @@ export default function Layout({ children }: LayoutProps) {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} QC Live. All rights reserved.
+                © {new Date().getFullYear()} Nivohost. All rights reserved.
               </p>
               <p className="text-xs text-muted-foreground mt-1">
-                Designed by{' '}
+                Powered by{' '}
                 <a 
-                  href="https://github.com/himanshu-hivecorp" 
+                  href="https://nivohost.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  Himanshu-HIVEcorp
+                  Nivohost
                 </a>
               </p>
             </div>
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2 text-xs text-muted-foreground">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                <path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.56A3.02 3.02 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14c1.88.56 9.38.56 9.38.56s7.5 0 9.38-.56a3.02 3.02 0 0 0 2.12-2.14A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8ZM9.6 15.9V8.1l6.5 3.9-6.5 3.9Z"/>
                 </svg>
-                <span>Dev Edition</span>
+                <span>24/7 Youtube Live Stream</span>
               </div>
             </div>
           </div>
